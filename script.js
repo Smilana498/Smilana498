@@ -25,6 +25,8 @@
 var arr = [10, 20, 30, 50, 235, 3000];
 
 for (var item of arr) {
-    console.log(item);
+    var elm = String(item);
+    if (elm.includes("i") || elm.includes("2") || elm.includes("5")) {
+        console.log(item);
+    }
 }
-
