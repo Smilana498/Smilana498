@@ -22,5 +22,9 @@
 
 //    console.log(colors);
 
+var arr = [10, 20, 30, 50, 235, 3000];
 
+for (var item of arr) {
+    console.log(item);
+}
 
